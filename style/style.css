@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Roboto",sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #1F2937;
+    color:white;
+}
+
+.header_logo{
+    margin-left: 120px;
+}
+.header_links{
+    display: flex;
+    gap:20px;
+    
+}
+
+.header_links a{
+    text-decoration: none;
+    color:white;
+}
+
+.firstdiv{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:350px;
+    background-color: #1F2937;
+
+}
+
+.awesome_website{
+    
+    height:165px;
+    width:390px;
+    margin-right: 0px;
+    padding-right: 10px;
+    margin-top: -20px;
+
+}
+
+.first_header{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8
+}
+.aswm_p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.place_for_image{
+    
+    height:165px;
+    width: 350px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #868687;
+    color:white;
+}
+
+.asw-signup{
+    width: 150px;
+    padding: 3px;
+    margin-top: 5px;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    border:none;
+}
+
+
+.plain_div{
+    border: 3px solid #3882F6;
+    height: 100px;
+    width:100px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.plain_div + p{
+    color:grey
+}
+
+.info_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+    font-size: 14px;
+    
+
+}
+
+.random_information{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom:  60px;
+}
+
+.info_item{
+    display: flex;
+    width: 130px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #E5E7EB;
+    font-size: 16px;
+    
+}
+.blockqute{
+    width: 370px;
+    height: 150px;
+    margin-top: 20px;
+   
+}
+
+.blockqotcite{
+    margin-left: 250px;
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.call_to_action{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+
+}
+.btn-sign_up{
+    margin-left: 50px;
+    width:80px;
+    height:25px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.caltopara{
+    font-size: 12px;
+    color: #f2f3f1;
+}
+.copy_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 12px;
+}
